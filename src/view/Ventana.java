@@ -1,5 +1,6 @@
 package view;
 
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,6 +17,7 @@ public class Ventana extends JFrame{
 	public Ventana(Eventos e) {
 		super("Mi ventana");
 		ev=e;
+		this.setBackground(Color.blue);
 		initComponents();
 		addJLabel();
 	}
