@@ -36,7 +36,7 @@ public class Ventana extends JFrame{
 	}
 
 	public void addJLabel() {
-		label=new JLabel("no sé qué pasó");
+		label=new JLabel(".... qué pasó");
 		label.setBounds(80,180,180,300);
 		this.add(label);
 	}
