@@ -20,7 +20,7 @@ public class Eventos implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		String resultado=l.darMensaje();
 		
-		v.label.setText(resultado);
+		v.label.setText("No sé qué estamos haciendo");
 		v.crearPanel(resultado);
 	}
 
